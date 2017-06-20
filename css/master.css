@@ -1,0 +1,51 @@
+* {
+	border: 1px solid;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+/*	border: 0;
+*/	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+
+.wrapper {
+	margin: 25vh auto;
+	display: flex;
+	flex-flow: column wrap;
+	min-height: 235px;
+	width: 30%;
+	transition: all 2s;
+	justify-content: space-around;
+/*	border-radius: 50px;
+*//*	width: 40%;
+*/}
+
+.info {
+    flex: 1 1 50px;
+    transition: all 2s;
+    border-radius: 10px;
+}
+
+.active-section {
+	flex: 2 1 35vh;
+	order: 2;
+}
+
+/*.face {
+	border-radius: 50px 0 0 0;
+}
+
+.letter {
+    border-radius: 0 50px 0 0;	
+}
+
+.works {
+    border-radius: 0 0 0 50px;	
+}
+
+.contact {
+    border-radius: 0 0 50px 0;	
+}*/
