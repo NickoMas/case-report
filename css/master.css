@@ -289,17 +289,18 @@ ul.heroUList > li:last-child > button {
 }
 
 .worksUnit {
-	text-align: center;
-	background-size: contain;
+    flex: 0 1 250px;
+    padding: 10px;
+    text-align: center;
+    background-size: contain;
 }
 
 .worksContainer {
-    display: grid;
-    grid-template-areas:
-		"work work work work";
-    grid: 250px / repeat(4, 250px);
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto;
     justify-content: center;
-    grid-gap: 10px 20px;
 }
 
 .worksContainer span {
