@@ -2,45 +2,188 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/master.css">
+	<title>WebDev portfolio</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- 	<link rel="stylesheet" href="css/font-awesome.min.css">
+ -->	<link rel="stylesheet" href="css/master.css">
 </head>
 <body>
+
+<!-- 	<div class="spinner" style="transition:all 1s; opacity: 1;z-index: 999 ">
+		<div id="img1" class="img">
+		</div>
+		<div id="img2" class="img"></div>
+		<div id="img3" class="img"></div>
+		<div id="img4" class="img"></div>
+		<div id="img5" class="img"></div>
+		<div id="img6" class="img"></div>
+		<div id="img7" class="img"></div>
+		<div id="img8" class="img"></div>
+	</div> -->
+
 	<section class="wrapper">
-<!-- 		<section class="face">My face :)</section>
- -->		
- 		<section class="info letter">
- 			<span>Who am I</span>
- 			<article class="area">
- 				<div class="letterBlock">
-	 				<img src="" alt="">
-	 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique sed accusamus, tenetur ex! Esse voluptas fuga inventore natus harum laborum.</p> 					
- 				</div>
- 			</article>
- 		</section>
-		<section class="info works">
-			<span>My works</span>
-			<article class="area">
-				<div class="workBlock">
-					<img src="" alt="">
-					<p class="workNote">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, animi.
-					</p>
-					<div class="workTech">
-						<span>React</span>
-						<span>NodeJS</span>
-					</div>			
-				</div>
-			</article>
-		</section>
-		<section class="info contact">
-			<span>Contact info</span>
-			<article class="area">
-				
-			</article>
-		</section>
+
+		<header class="heroHead">
+				<nav class="heroNav">
+					<!-- <figure class="brand">
+						<img src="#" alt="brand" width="100" height="100">
+					</figure> -->
+					<input type="checkbox" id="menu-toggle">
+					<ul class="heroUList">
+						<li class="heroUnit">
+							Preface
+						</li>
+						<li class="worksUnit">
+							My works
+						</li>
+						<li class="aboutUnit">
+							About me
+						</li>
+						<li class="contactUnit">
+							Contacts
+						</li>
+					</ul>
+					<label for="menu-toggle" class="label-toggle"></label>
+				</nav>
+			</header>
+		<div  class="hero panel">
+			<main class="aboutMain">
+				<section class="aboutContainer">
+					<figure class="face">
+						<img src="img/f.jpg" alt="Nick">
+					</figure>
+					<article class="aboutText">
+						<p>Hi there! I'm Nick Masalkov, and I love JS, Web and whales (Whales too tho').</p>
+						<p>Constantly absorbing new knowledge, exploring new grounds and exprerimenting with Web potential, <br> I am willing to keep on treading this never lasting path.</p>
+						<p>If you want to work with me - drop a line or call me, let's make some noise out there in www =) Have a good day!</p>
+					</article>
+				</section>
+			</main>
+		</div>
+		<div  class="works panel">
+			<!-- 			<header class="worksHead">
+							<h1>My works</h1>
+						</header> -->
+			<main class="worksMain">
+				<section class="worksContainer">
+					<article class="worksUnit">
+						<figure>
+							<img src="img/Reen.png" alt="">
+						</figure>
+						<h3>
+							<a href="https://nickomas.github.io/css-frameworks-bootstrap/index.html" target="_blank">
+								Landing page
+							</a>
+						</h3>
+						<span>Bootstrap</span>
+					</article>
+					<article class="worksUnit">
+						<figure>
+							<img src="img/Game.png" alt="">
+						</figure>
+						<h3>
+							<a href="https://nickomas.github.io/Little-After-Burner/index.html" target="_blank">
+								HTML5 game on Vanilla JS
+							</a>
+						</h3>
+						<span>Canvas</span>
+						<span>HTML5</span>
+					</article>
+					<article class="worksUnit">
+						<figure>
+							<img src="img/yt.png" alt="youtube app">
+						</figure>
+						<h3>
+							<a href="https://nickomas.github.io/ytSearch/" target="_blank">
+								Youtube API app
+							</a>
+						</h3>
+						<span>REST</span>
+						<span>Google API</span>
+					</article>
+					<article class="worksUnit">
+						<figure>
+							<img src="img/rc.png" alt="">
+						</figure>
+						<h3>
+							<a href="https://nickomas.github.io/calendar/" target="_blank">
+								React Calendar
+							</a>
+						</h3>
+						<span>ReactJS</span>
+						<span>Redux</span>
+					</article>
+				</section>
+			</main>
+			<footer>
+
+			</footer>
+		</div>
+		<div  class="about panel">
+			<!-- 			<header class="aboutHead">
+							<h1>About me</h1>
+						</header> -->
+			<main class="aboutMain">
+				<section class="aboutContainer">
+					<article class="aboutText">
+						<h3>FrontEnd / Javascript developer</h3>
+						<p>Exploring my way through Web-development I curious about grasping both client and server sides.</p>
+						<p>Up to the current time I've worked with:
+							<span>ReactJS</span>
+							<span>Redux</span>
+							<span>AngularJS</span>
+							<span>D3.JS</span>
+							<span>NodeJS</span>
+							<span>Express</span>
+							<span>MongoDB</span>
+							<span>Firebase</span>
+						</p>
+						<p>Next tools and services are being used for development and deployment:
+							<span>GIT / Github</span>
+							<span>Webpack</span>
+							<span>Gulp</span>
+							<span>ESLint</span>
+							<span>Heroku</span>
+						</p>
+					</article>
+				</section>
+			</main>
+		</div>
+		<div  class="contact panel">
+				<section class="contacts">
+					<div class="github">
+						<a href="https://github.com/NickoMas" target="_blank">
+							<i class="fa fa-github" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="linkedin">
+						<a href="https://www.linkedin.com/in/nick-masalkov-877b0b145/" target="_blank">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="gmail">
+						<a href="mailto:aquinnm@gmail.com">
+							<i class="fa fa-google-plus" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="phone">
+						<a href="tel:+375298407784" title="+375-29-840-77-84">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</a>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<div class="backdrop">
+			<h1>
+				Welcome, stranger!<br>
+				Make yourself at home.
+			</h1>
+		</div>
+
 	</section>
 
-	<script src="js/script.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
